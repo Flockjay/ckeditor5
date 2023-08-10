@@ -50,7 +50,7 @@
     "@ckeditor/ckeditor5-paste-from-office": "39.0.0",
     "@ckeditor/ckeditor5-table": "39.0.0",
     "@ckeditor/ckeditor5-typing": "39.0.0",
-    "@flockjay/ckeditor5-video": "https://github.com/Flockjay/ckeditor5-video.git#8406e28f7399d43b24fd5137b2dc2fa712cc0293",
+    "@flockjay/ckeditor5-video": "https://github.com/Flockjay/ckeditor5-video.git#ca20e4007e6273dcb6080a26554dee873c6cf8cd",
     "@phudak/ckeditor5-emoji": "^1.1.1"
   },
   "devDependencies": {
