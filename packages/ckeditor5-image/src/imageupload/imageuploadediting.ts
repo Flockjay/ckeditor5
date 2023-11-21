@@ -69,7 +69,7 @@ export default class ImageUploadEditing extends Plugin {
 		} );
 		editor.config.define( 'audio', {
 			upload: {
-				types: [ '.mp3', '.wav' ]
+				types: [ '.mp3', '.wav', '.m4a' ]
 			}
 		} );
 		editor.config.define( 'file', {
@@ -79,7 +79,7 @@ export default class ImageUploadEditing extends Plugin {
 		} );
 		editor.config.define( 'extraFile', {
 			upload: {
-				types: [ '.rtf', '.txt', '.key', '.email', '.eml', '.emlx', '.mpg', '.mpeg', '.zip', '.sketch', '.m4a' ]
+				types: [ '.rtf', '.txt', '.key', '.email', '.eml', '.emlx', '.mpg', '.mpeg', '.zip', '.sketch' ]
 			}
 		} );
 

@@ -18,7 +18,8 @@ export const videoMimeTypes = {
 };
 export const audioMimeTypes = {
 	'mp3': 'mpeg',
-	'wav': 'wav'
+	'wav': 'wav',
+	'm4a': 'x-m4a'
 };
 
 export const fileMimeTypes = {
