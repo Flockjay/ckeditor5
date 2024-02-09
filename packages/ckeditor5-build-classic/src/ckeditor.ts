@@ -119,10 +119,11 @@ export default class ClassicEditor extends ClassicEditorBase {
 			items: [
 				'heading',
 				'|',
-				'fontfamily',
-				'fontsize',
-				'fontColor',
-				'fontBackgroundColor',
+				{
+					label: 'Fonts',
+					icon: 'text',
+					items: [ 'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor' ]
+				},
 				'|',
 				'bold',
 				'italic',
