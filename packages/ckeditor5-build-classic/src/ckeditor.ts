@@ -122,7 +122,7 @@ export default class ClassicEditor extends ClassicEditorBase {
 				{
 					label: 'Fonts',
 					icon: 'text',
-					items: [ 'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor' ]
+					items: [ 'fontFamily', 'fontSize', 'fontColor', 'fontBackgroundColor' ]
 				},
 				'|',
 				'bold',
