@@ -303,7 +303,6 @@ export default class MediaEmbedEditing extends Plugin {
 						/^((?:.)+localhost:3000)\/(course|learningpath|hub|page|opportunity|classroom|dealroom)\/(?!create)([\w=?&-]+)(\/)?$/
 					],
 					html: match => {
-						const domain = match[ 1 ];
 						const category = match[ 2 ];
 						let contentType, contentId;
 						if ( category === 'classroom' ) {
@@ -334,7 +333,7 @@ export default class MediaEmbedEditing extends Plugin {
 							contentType = category;
 							contentId = match[ 3 ];
 						}
-						const url = `${ domain }/embed/?contentId=${ contentId }&contentType=${ contentType }`;
+						const url = `https://fj-user-uploads.s3.us-east-2.amazonaws.com/fjembed_test.html?contentId=${ contentId }&contentType=${ contentType }`;
 
 						return (
 							`<a href=${ match[ 0 ] } style="display: block; width: 100%; height: 100%; max-width: 298px; min-width: 210px; margin: auto;">` +
