@@ -351,7 +351,7 @@ export default class MediaEmbedEditing extends Plugin {
 						const url = `${ domain }/embed/?contentId=${ contentId }&contentType=${ contentType }`;
 
 						return (
-							`<a href=${ match[ 0 ] } style="display: block; width: 100%; height: 100%; max-width: 298px; min-width: 210px; margin: auto;">` +
+							`<a href=${ match[ 0 ] } style="display: block; width: 298px; height: 100%; margin: auto;">` +
 								'<div style="position: relative; padding-bottom: calc(56.25% + 78px); pointer-events: none; border-radius: 8px; overflow: hidden;">' +
 									`<iframe src="${ url }"` +
 										'style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;" ' +
