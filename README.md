@@ -1,6 +1,6 @@
 # CKEditor 5 Fork
 
-The original repository can be found at [ckeditor/ckeditor5](https://github.com/ckeditor/ckeditor5).
+This is a forked version of CKEditor 5 with additional customizations and features.
 
 ## Modified Packages
 
