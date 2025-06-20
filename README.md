@@ -33,6 +33,43 @@ Enhanced to support iframe embedding for various media links. The implementation
 -   **Other:** GIF files
 -   **Custom:** FJLink (Flockjay learning content) - embedded as library cards using the [Flockjay/embed](https://github.com/Flockjay/embed) repository
 
+### [@flockjay/ckeditor5-video](https://github.com/Flockjay/ckeditor5-video)
+
+This repository handles embedding uploaded video files in CKEditor 5.
+
+**Changes made:**
+
+-   **Dependency upgrades:** Updated to CKEditor 5 version 39.0.0 - [Upgrade version to 39.0.0](https://github.com/Flockjay/ckeditor5-video/commit/8406e28f7399d43b24fd5137b2dc2fa712cc0293)
+-   **Enhanced functionality:**
+    -   Added `data-document-id` support for video processing - [Include data document id](https://github.com/laurentDellaNegra/ckeditor5-video/commit/464bb11ceae5efd1101c0ff92ed6acf5ea010a1e)
+    -   Added `poster` attribute support - [Include poster](https://github.com/laurentDellaNegra/ckeditor5-video/commit/b4e54453fa94b52802cf7226a28e3359cc00c0ae)
+-   **Bug fixes:**
+    -   [Fixed video matcher](https://github.com/Flockjay/ckeditor5-video/commit/31e93ba51e56ecb02786c9d3a82e5651e1a7fe49)
+    -   [Fixed "cannot read parent of null" error](https://github.com/Flockjay/ckeditor5-video/commit/ca20e4007e6273dcb6080a26554dee873c6cf8cd)
+
+### [@flockjay/ckeditor5-audio](https://github.com/Flockjay/ckeditor5-audio)
+
+This repository handles embedding uploaded audio files in CKEditor 5.
+
+**Changes made:**
+
+-   **Dependency upgrades:** Updated to CKEditor 5 version 39.0.0 - [Upgrade version to 39.0.0](https://github.com/Flockjay/ckeditor5-audio/commit/a91927a34295c5c7479a3c6d2ca5d79b7569f440)
+-   **API compatibility:** Fixed to use `findOptimalInsertionRange` instead of deprecated `findOptimalInsertionPosition` function - [Use findOptimalInsertionRange](https://github.com/Flockjay/ckeditor5-audio/commit/6d7c4b84b293a06854535130998fddb088835e57)
+-   **Bug fixes:**
+    -   [Fixed undefined reading isEmpty](https://github.com/Flockjay/ckeditor5-audio/commit/135b7abd1d3397314ca1ef672353a951f6d28de4)
+    -   [Fixed copy-paste problem](https://github.com/Flockjay/ckeditor5-audio/commit/df9ccab57290233e4e7be3b77a8078f90953786a)
+
+### [@flockjay/ckeditor5-file-upload](https://github.com/Flockjay/ckeditor5-file-upload)
+
+This repository handles embedding uploaded files in CKEditor 5.
+
+**Changes made:**
+
+-   **Dependency upgrades:** Updated to CKEditor 5 version 39.0.0 - [Upgrade version to 39.0.0](https://github.com/Flockjay/ckeditor5-file-upload/commit/3e3186f7960ba3f60853c528cba24a474474f4c7)
+-   **Enhanced functionality:** [Set linkHref from default URL](https://github.com/Flockjay/ckeditor5-file-upload/commit/142c227a27b341f53100d155a43f27c93a045ee6)
+-   **Bug fixes:**
+    -   [Fixed drag and drop issue](https://github.com/Flockjay/ckeditor5-file-upload/commit/8eee70876f65f9605b7e1e586c6d06c9e257f376)
+
 ## Development
 
 ### Testing
