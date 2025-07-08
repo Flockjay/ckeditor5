@@ -21,7 +21,6 @@ import MediaRegistry from './mediaregistry';
 import { toMediaWidget, createMediaFigureElement } from './utils';
 
 import '../theme/mediaembedediting.css';
-import salesloftIcon from '../theme/icons/media/salesloft.svg';
 
 /**
  * The media embed editing feature.
