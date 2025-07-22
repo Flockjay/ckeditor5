@@ -290,7 +290,7 @@ export default class MediaEmbedEditing extends Plugin {
 					html: match => {
 						const url = match[ 0 ];
 						return (
-							`<a href="${ url }" target="_blank" rel="noopener noreferrer" style="display: flex; flex-direction: column; width: 100%; height: 550px; border-radius: 16px; justify-content: center; align-items: center; font-size: 14px; font-weight: 500; text-decoration: none; background-color: #72DFC7">
+							`<a href="${ url }" target="_blank" rel="noopener noreferrer" style="display: flex; flex-direction: column; width: 100%; height: 550px; border-radius: 16px; justify-content: center; align-items: center; font-size: 14px; font-weight: 500; text-decoration: none; background-color: #A1E7D6">
 								<svg width="58" height="58" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M22.3475 6.6969L15.6582 8.51395C15.9288 9.76897 16.0714 11.0996 16.0714 12.4957C16.0714 13.8918 15.9277 15.2214 15.6582 16.4775L22.3475 18.2946C22.7754 16.482 23 14.4956 23 12.4969C23 10.4981 22.7754 8.50945 22.3475 6.6969Z" fill="#00D7B8"/>
 									<path d="M5.40967 4.81921L1 12.4948L7.97889 7.2581C7.30961 6.25479 6.43825 5.42865 5.40967 4.81921Z" fill="#5F3AD7"/>
