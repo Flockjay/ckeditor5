@@ -300,8 +300,8 @@ export default class MediaEmbedEditing extends Plugin {
 									<path d="M16.0733 12.4948C16.0733 11.0987 15.9296 9.76911 15.6601 8.51294L1 12.4948L15.6589 16.4766C15.9307 15.2192 16.0733 13.8931 16.0733 12.4948Z" fill="white"/>
 								</svg>
 								<span style="margin-top: 32px; display: flex; align-items: center;">
-									<span class="ant-typography" style="text-align: center; font-size: 16px; color: rgb(2, 82, 75); font-weight: 500; padding: 0px; margin: 0px;">Click to open call in Clari</span>
-									<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#02524B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 2px; margin-left: 8px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+									<span class="ant-typography" style="text-align: center; font-size: 16px; color: #303740; font-weight: 500; padding: 0px; margin: 0px;">Click to open call in Clari</span>
+									<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#303740" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 2px; margin-left: 8px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
 								</span>
 							</a>`
 						);
