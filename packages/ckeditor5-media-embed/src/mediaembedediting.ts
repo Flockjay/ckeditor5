@@ -375,9 +375,9 @@ export default class MediaEmbedEditing extends Plugin {
 				{
 					name: 'FJLink',
 					url: [
-						/^((?:.)+flockjay.com)\/(course|learningpath|hub|page|opportunity|classroom|dealroom)\/(?!create)([\w=?&-]+)(\/)?$/,
-						/^((?:.)+amplifyapp.com)\/(course|learningpath|hub|page|opportunity|classroom|dealroom)\/(?!create)([\w=?&-]+)(\/)?$/,
-						/^((?:.)+localhost:3000)\/(course|learningpath|hub|page|opportunity|classroom|dealroom)\/(?!create)([\w=?&-]+)(\/)?$/
+						/^((?:.)+flockjay.com)\/(course|learningpath|hub|page|opportunity|classroom|dealroom|roleplay-scenario)\/(?!create)([\w=?&-]+)(\/)?$/,
+						/^((?:.)+amplifyapp.com)\/(course|learningpath|hub|page|opportunity|classroom|dealroom|roleplay-scenario)\/(?!create)([\w=?&-]+)(\/)?$/,
+						/^((?:.)+localhost:3000)\/(course|learningpath|hub|page|opportunity|classroom|dealroom|roleplay-scenario)\/(?!create)([\w=?&-]+)(\/)?$/
 					],
 					html: match => {
 						const domain = match[ 1 ];
@@ -407,6 +407,9 @@ export default class MediaEmbedEditing extends Plugin {
 								contentType = 'call';
 								contentId = callId;
 							}
+						} else if ( category === 'roleplay-scenario' ) {
+							contentType = 'roleplayscenario';
+							contentId = match[ 3 ];
 						} else {
 							contentType = category;
 							contentId = match[ 3 ];
