@@ -407,6 +407,9 @@ export default class MediaEmbedEditing extends Plugin {
 								contentType = 'call';
 								contentId = callId;
 							}
+						} else if ( category === 'roleplay-scenario' ) {
+							contentType = 'roleplayscenario';
+							contentId = match[ 3 ];
 						} else {
 							contentType = category;
 							contentId = match[ 3 ];
