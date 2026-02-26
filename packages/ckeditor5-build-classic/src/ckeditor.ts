@@ -169,7 +169,8 @@ export default class ClassicEditor extends ClassicEditorBase {
 				'|',
 				'htmlEmbed',
 				'codeBlock',
-				'sourceEditing'
+				'sourceEditing',
+				'imageUpload'
 			],
 			shouldNotGroupWhenFull: true
 		},

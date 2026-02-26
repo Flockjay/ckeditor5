@@ -13,6 +13,7 @@ import { FileDialogButtonView } from 'ckeditor5/src/upload';
 import { createFileTypeRegExp, createImageTypeRegExp, createVideoTypeRegExp, createAudioTypeRegExp } from './utils';
 import type UploadImageCommand from './uploadimagecommand';
 import mediaUploadIcon from '../../theme/icons/upload-media.svg';
+import { audioMimeTypes, videoMimeTypes } from './mimeTypes';
 
 /**
  * The image upload button plugin.
@@ -73,6 +74,7 @@ export default class ImageUploadUI extends Plugin {
 			view.buttonView.bind( 'isEnabled' ).to( command );
 
 			view.on( 'done', ( evt, files: FileList ) => {
+				console.log( files );
 				const imagesToUpload = Array.from( files ).filter( file => imageTypesRegExp.test( file.type ) );
 				const videosToUpload = Array.from( files ).filter( file => {
 					return videoTypesRegExp.test( file.type ) || file.name.includes( '.mkv' );
@@ -86,6 +88,8 @@ export default class ImageUploadUI extends Plugin {
 				const extraFilesToUpload = Array.from( files ).filter( file => {
 					return extraFileTypes.some( type => file.name.includes( type ) );
 				} );
+
+				console.log( videosToUpload, audiosToUpload );
 
 				if ( imagesToUpload.length ) {
 					editor.execute( 'uploadImage', { file: imagesToUpload } );
