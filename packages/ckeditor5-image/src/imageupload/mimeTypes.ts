@@ -13,13 +13,13 @@ export const imageMimeTypes = {
 };
 export const videoMimeTypes = {
 	'mp4': 'mp4',
-	'webm': 'webm',
 	'mov': 'quicktime'
 };
 export const audioMimeTypes = {
 	'mp3': 'mpeg',
 	'wav': 'wav',
-	'm4a': 'x-m4a'
+	'm4a': 'x-m4a',
+	'webm': 'webm'
 };
 
 export const fileMimeTypes = {

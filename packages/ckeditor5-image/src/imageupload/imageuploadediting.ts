@@ -64,12 +64,12 @@ export default class ImageUploadEditing extends Plugin {
 		} );
 		editor.config.define( 'video', {
 			upload: {
-				types: [ '.mp4', '.webm', '.mov', '.mkv' ]
+				types: [ '.mp4', '.mov', '.mkv' ]
 			}
 		} );
 		editor.config.define( 'audio', {
 			upload: {
-				types: [ '.mp3', '.wav', '.m4a' ]
+				types: [ '.mp3', '.wav', '.m4a', '.webm' ]
 			}
 		} );
 		editor.config.define( 'file', {
