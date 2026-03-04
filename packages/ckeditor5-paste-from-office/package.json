@@ -27,7 +27,7 @@
     "@ckeditor/ckeditor5-enter": "39.0.0",
     "@ckeditor/ckeditor5-font": "39.0.0",
     "@ckeditor/ckeditor5-heading": "39.0.0",
-    "@ckeditor/ckeditor5-html-support": "39.0.0",
+    "@ckeditor/ckeditor5-html-support": "47.6.0",
     "@ckeditor/ckeditor5-image": "39.0.0",
     "@ckeditor/ckeditor5-link": "39.0.0",
     "@ckeditor/ckeditor5-list": "39.0.0",
