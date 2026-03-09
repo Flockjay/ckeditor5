@@ -429,7 +429,7 @@ export default class MediaEmbedEditing extends Plugin {
 					}
 				},
 				{
-					name: 'FJ SharedLink',
+					name: 'FJSharedLink',
 					url: [
 						/^((?:.)+flockjay.com)\/share\?linkId=([\w-]+)/,
 						/^((?:.)+amplifyapp.com)\/share\?linkId=([\w-]+)/,
