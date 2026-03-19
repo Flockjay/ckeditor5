@@ -56,7 +56,7 @@
     "@ckeditor/ckeditor5-source-editing": "39.0.0",
     "@ckeditor/ckeditor5-undo": "39.0.0",
     "@flockjay/ckeditor5-video": "https://github.com/Flockjay/ckeditor5-video.git#e940b227d21f6d9dbd4fbe352a281a5b68d31ef6",
-    "@flockjay/ckeditor5-audio": "https://github.com/Flockjay/ckeditor5-audio.git#45ca690b280f8b1eb9a8abad18997a0356bd975d",
+    "@flockjay/ckeditor5-audio": "https://github.com/Flockjay/ckeditor5-audio.git#c715e617116a33a0974a7e4acb8077e516b21f49",
     "@phudak/ckeditor5-emoji": "^1.1.1"
   },
   "devDependencies": {
