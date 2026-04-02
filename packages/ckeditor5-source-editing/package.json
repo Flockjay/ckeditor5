@@ -13,7 +13,7 @@
   "main": "src/index.ts",
   "dependencies": {
     "@ckeditor/ckeditor5-theme-lark": "39.0.0",
-    "ckeditor5": "39.0.0"
+    "ckeditor5": "48.0.0"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-core": "39.0.0",

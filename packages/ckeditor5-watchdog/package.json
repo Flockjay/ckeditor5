@@ -11,7 +11,7 @@
   ],
   "main": "src/index.ts",
   "dependencies": {
-    "lodash-es": "4.17.21"
+    "lodash-es": "4.18.1"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-core": "39.0.0",
@@ -21,7 +21,7 @@
     "@ckeditor/ckeditor5-paragraph": "39.0.0",
     "@ckeditor/ckeditor5-utils": "39.0.0",
     "@ckeditor/ckeditor5-track-changes": "39.0.0",
-    "ckeditor5": "39.0.0",
+    "ckeditor5": "48.0.0",
     "typescript": "^4.8.4"
   },
   "author": "CKSource (http://cksource.com/)",
