@@ -131,7 +131,7 @@ export default class MediaEmbedEditing extends Plugin {
 						/^vimeo\.com\/channels\/[^/]+\/(\d+)/,
 						/^vimeo\.com\/groups\/[^/]+\/videos\/(\d+)/,
 						/^vimeo\.com\/ondemand\/[^/]+\/(\d+)/,
-						/^player\.vimeo\.com\/video\/(\d+)/
+						/https:\/\/player\.vimeo\.com\/video\/(\d+)/
 					],
 					html: match => {
 						const id = match[ 1 ];
