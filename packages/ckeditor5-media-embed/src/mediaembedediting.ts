@@ -135,10 +135,11 @@ export default class MediaEmbedEditing extends Plugin {
 					],
 					html: match => {
 						const id = match[ 1 ];
-
+						const url = match.input!;
+						const src = url.includes( 'player.vimeo.com' ) ? url : `https://player.vimeo.com/video/${ id }`;
 						return (
 							'<div style="position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;">' +
-								`<iframe src="https://player.vimeo.com/video/${ id }" ` +
+								`<iframe src="${ src }" ` +
 									'style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;" ' +
 									'frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>' +
 								'</iframe>' +
